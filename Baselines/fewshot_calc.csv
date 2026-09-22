@@ -1,0 +1,2 @@
+tag,source_file,n_samples,strict_precision,strict_recall,strict_f1,relaxed_precision,relaxed_recall,relaxed_f1,drug_precision,drug_recall,drug_f1
+fewshot,raw_predictions_fewshot.txt,750,0.6561264822134387,0.45679691799669786,0.5386112913692408,0.7640316205533597,0.5319207484865163,0.6271901362751461,0.7280832095096582,0.6041923551171393,0.6603773584905661
