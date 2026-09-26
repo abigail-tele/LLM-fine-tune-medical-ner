@@ -42,13 +42,11 @@ Notes:
 │   ├── v11/                       # legacy run (LoRA r64/alpha16, 4-config sweep); superseded by v12_final
 │   │   ├── ver11-fine-tuning-combined.py
 │   │   ├── combined11_adr_sweep_results.csv
-│   │   └── Raw Predictions/
 │   └── v12_final/                 # canonical run (LoRA r16/alpha32, 6-config sweep)
 │       ├── ver12(final)-fine-tuning-combined.py
 │       ├── recompute-metrics.py   # strict + relaxed P/R/F1 scoring from raw prediction files
 │       ├── combined12_adr_sweep_results.csv
 │       ├── recomputed_metrics_results.csv
-│       └── Raw Predictions/
 ├── requirements.txt
 └── README.md
 ```
